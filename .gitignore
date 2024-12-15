@@ -1,7 +1,8 @@
-# .gitignore
 __pycache__/
-db.sqlite3
 *.pyc
-venv/
-*.log
+*.pyo
+*.pyd
 .env
+venv/
+db.sqlite3
+*.log
