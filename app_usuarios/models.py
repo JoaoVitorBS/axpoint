@@ -2,6 +2,9 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 class Usuario(AbstractUser):
+    """
+    Modelo de usuário personalizado, estendendo AbstractUser do Django.
+    """
     TIPO_USUARIO = [
         ('admin', 'Administrador'),
         ('operador', 'Operador'),
